@@ -22,7 +22,7 @@ router.get("/", async (req, res) => {
   } catch (error) {
     res
       .status(500)
-      .send({ message: "something went wrong while creating post" });
+      .send({ message: "something went wrong while getting post" });
   }
 });
 
