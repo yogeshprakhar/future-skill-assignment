@@ -1,27 +1,17 @@
-# Help Center API Assignment
+# Instruction to run the project
+Project have already env file with string(only for assignment)
 
 ## Instructions
 
 1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/iAmritMalviya/fullstack-assignment
-   cd fullstack-assignment
-   ```
+   - clone the repo in your machine
 
 2. **Frontend:**
-   - Create a React app in the `frontend` folder.
-   - Follow the instructions in `frontend.md` to complete the frontend.
+   - open fronent folder and install dependencies
+   - run `npm run dev` command in frontned folder
 
 3. **Backend:**
-   - Create a Node.js app in the `backend` folder.
-   - Follow the `backend.md` instructions to complete the backend.
-
-4. **Push Your Work:**
-   - Push both the frontend and backend apps to the same repository.
-   - Make sure the repository is public.
-
-5. **Submit Your Work:**
-   - Paste the GitHub repository link in the Google form you received after pushing your code.
-
----
+   - open fronent folder and install dependencies
+   - run `npm run dev` command in backend folder
+   - env file is already there for assignmnet purpose
 
