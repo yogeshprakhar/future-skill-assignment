@@ -5,6 +5,7 @@ const router = Router();
 
 router.post("/", async (req, res) => {
   try {
+    // todo - add check if name and description have data or not
     const post = new Post(req.body);
     await post.save();
     return res.status(200).send({ message: "post created ok" });
